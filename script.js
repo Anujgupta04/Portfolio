@@ -1,5 +1,5 @@
 /**
- * ALEX MORGAN — PORTFOLIO
+ * Ramanujgupta — PORTFOLIO
  * script.js
  *
  * Features:
@@ -260,7 +260,7 @@ contactForm.addEventListener('submit', (e) => {
   );
 
   // Open the user's email client
-  window.location.href = `mailto:alex.morgan@email.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:ramanujgupta9616@gmail.com?subject=${subject}&body=${body}`;
 
   // Show success message and reset form
   formSuccess.classList.add('show');
