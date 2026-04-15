@@ -16,7 +16,7 @@ I enjoy building interactive web applications and continuously learning new tech
 ## 🚀 Live Portfolio
 
 👉 **Portfolio Website:**
-[My Portfolio](portfolio-five-rouge-45.vercel.app)
+* Portfolio: portfolio-five-rouge-45.vercel.app
 
 
 ---
