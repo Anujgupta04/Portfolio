@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ram Anuj Gupta | CSE Student & Developer</title>
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons (lightweight icon set) -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>ANUJ<span class="logo-bracket">/&gt;</span>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#resume" class="nav-link">Resume</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <!-- Dark/Light mode toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="ph ph-sun" id="themeIcon"></i>
+      </button>
+      <!-- Hamburger menu (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <!-- Decorative grid background -->
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <!-- Text Side -->
+      <div class="hero-text" data-aos="fade-right">
+        <span class="hero-tag">👋 Available for internships</span>
+        <h1 class="hero-title">
+          Hi, I'm<br/>
+          <span class="gradient-text">Ram Anuj Gupta</span>
+        </h1>
+        <div class="hero-roles">
+          <span class="role-chip">Web Developer</span>
+          <span class="role-divider">/</span>
+          <span class="role-chip">Software Developer</span>
+        </div>
+        <p class="hero-intro">
+          A passionate Computer Science student turning ideas into elegant digital
+          experiences. I love building things for the web and solving complex problems
+          with clean, efficient code.
+        </p>
+        <div class="hero-cta">
+          <a href="Resume_Ram AnujGupta.pdf" download class="btn btn-primary">
+            <i class="ph ph-download-simple"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="ph ph-paper-plane-tilt"></i> Contact Me
+          </a>
+        </div>
+        <!-- Social Links -->
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/ram-anuj-gupta-5692b9257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="https://github.com/Anujgupta04" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="ramanujgupta9616@gmail.com" class="social-icon" aria-label="Email">
+            <i class="ph ph-envelope-simple"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Photo Side -->
+      <div class="hero-photo" data-aos="fade-left">
+        <div class="photo-frame">
+          <!-- Replace this src with your actual photo -->
+          <img
+            src="ram.jpeg"
+            alt="Ram Anuj Gupta"
+            class="profile-img"
+            onerror="this.src='https://placehold.co/400x400/1a1a2e/f59e0b?text=AM'"
+          />
+          <div class="photo-badge">
+            <i class="ph ph-code"></i>
+            <span>CSE Student</span>
+          </div>
+        </div>
+        <!-- Floating stat cards -->
+        <div class="stat-card stat-card--1">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-card stat-card--2">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll down indicator -->
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <i class="ph ph-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get to Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Bio -->
+        <div class="about-bio" data-aos="fade-right">
+          <p class="about-text">
+            I'm <strong>Ram Anuj Gupta</strong>, a final-year Computer Science student with a
+            deep passion for web development, AI, and Cloud Computing.
+            I enjoy the full spectrum — from wireframing sleek UIs to architecting
+            back-end systems and training machine-learning models.
+          </p>
+          <p class="about-text">
+            When I'm not coding, you'll find me contributing to open-source, exploring
+            cloud platforms, or sketching UI concepts on paper. I believe great software
+            is equal parts logic and empathy.
+          </p>
+
+          <!-- Quick Info -->
+          <ul class="about-info-list">
+            <li><i class="ph ph-graduation-cap"></i> B.Tech Computer Science, 2026</li>
+            <li><i class="ph ph-map-pin"></i> Greater Noida, India</li>
+            <li><i class="ph ph-briefcase"></i> Open to internships & freelance</li>
+            <li><i class="ph ph-translate"></i> English, Hindi</li>
+          </ul>
+        </div>
+
+        <!-- Right: Career Objective + Skills summary -->
+        <div class="about-objective" data-aos="fade-left">
+          <div class="objective-card">
+            <div class="objective-icon"><i class="ph ph-target"></i></div>
+            <h3>Career Objective</h3>
+            <p>
+              To secure a challenging role as a software developer where I can apply my
+              technical skills, grow through real-world projects, and contribute to
+              building products that make a meaningful impact.
+            </p>
+          </div>
+
+          <!-- Mini skills summary -->
+          <div class="skills-summary">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Cloud Computing</span>
+            <span class="skill-tag">UI/UX</span>
+            <span class="skill-tag">React</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Work With</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Each skill card has: icon, name, progress bar, percent -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="skill-card__icon html-color">
+            <i class="ph ph-file-html"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">HTML5</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="90"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="skill-card__icon css-color">
+            <i class="ph ph-file-css"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">CSS3</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="skill-card__icon js-color">
+            <i class="ph ph-file-js"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="80"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="skill-card__icon php-color">
+            <i class="ph ph-code-block"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">Java</span>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="70"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="skill-card__icon mysql-color">
+            <i class="ph ph-database"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">MySQL</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="75"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-card__icon cloud-color">
+            <i class="ph ph-cloud"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">Cloud Computing</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="65"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="360">
+          <div class="skill-card__icon uiux-color">
+            <i class="ph ph-pen-nib"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">UI/UX Design</span>
+              <span class="skill-percent">72%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="72"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="420">
+          <div class="skill-card__icon python-color">
+            <i class="ph ph-robot"></i>
+          </div>
+          <div class="skill-card__body">
+            <div class="skill-card__header">
+              <span class="skill-name">Python / AI/ML</span>
+              <span class="skill-percent">68%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="68"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Things I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Car Racer Game -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-card__top">
+            <div class="project-card__icon">🏎️</div>
+            <div class="project-card__links">
+              <a href="https://github.com/alexmorgan/car-racer" target="_blank" rel="noopener" aria-label="GitHub" class="project-link">
+                <i class="ph ph-github-logo"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live Demo" class="project-link">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Car Racer Game</h3>
+          <p class="project-desc">
+            A fast-paced 2D browser racing game built with vanilla JS and HTML5 Canvas.
+            Features multiple difficulty levels, score tracking, and smooth animations.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <!-- Project 2: AI Crop Disease Detection -->
+        <article class="project-card project-card--featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card__badge">Featured</div>
+          <div class="project-card__top">
+            <div class="project-card__icon">🌿</div>
+            <div class="project-card__links">
+              <a href="https://github.com/alexmorgan/crop-disease-ai" target="_blank" rel="noopener" aria-label="GitHub" class="project-link">
+                <i class="ph ph-github-logo"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live Demo" class="project-link">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Movie Vault</h3>
+          <p class="project-desc">
+            MovieVault is a web-based movie information application that allows users to search and explore movies with real-time data fetched using the TMDb API.
+            It displays movie details such as title, rating, overview, and posters through an interactive and responsive user interface.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+            <span>API</span>
+          </div>
+        </article>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESUME SECTION ========== -->
+  <section class="section resume-section" id="resume">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Background</span>
+        <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+      </div>
+
+      <div class="resume-wrapper" data-aos="fade-up">
+        <!-- Resume Preview Card -->
+        <div class="resume-preview">
+          <!-- Simulated resume page layout -->
+          <div class="resume-page">
+            <div class="resume-page__header">
+              <div class="rph-name">Ram Anuj Gupta</div>
+              <div class="rph-role">B.Tech CSE · Web Developer · Software Developer</div>
+              <div class="rph-contact">
+                <span><i class="ph ph-envelope-simple"></i> Ram Anuj Gupta</span>
+                <span><i class="ph ph-github-logo"></i> https://github.com/Anujgupta04</span>
+              </div>
+            </div>
+
+            <div class="resume-page__body">
+              <div class="resume-col">
+                <div class="resume-section-block">
+                  <h4>Education</h4>
+                  <div class="resume-item">
+                    <strong>B.Tech Computer Science</strong>
+                    <span>Noida Institute of Engineering and Technology · 2022 – 2024</span>
+                    <span>CGPA: 7.13 / 10</span>
+                  </div>
+                  <div class="resume-item">
+                    <strong>Higher Secondary (PCM)</strong>
+                    <span>Aatmdeep Vidyalaya · 2021 – 2022 · 79.8%</span>
+                  </div>
+                </div>
+
+                <div class="resume-section-block">
+                  <h4>Skills</h4>
+                  <p>HTML, CSS, JavaScript, Java, Python, MySQL, Cloud Computing, UI/UX,React, Java</p>
+                </div>
+              </div>
+
+              <div class="resume-col">
+                <div class="resume-section-block">
+                  <h4>Projects</h4>
+                  
+                  <div class="resume-item">
+                    <strong>Movie Vault</strong>
+                    <span>HTML · CSS · Javascript</span>
+                  </div>
+                  <div class="resume-item">
+                    <strong>Car Racer Game</strong>
+                    <span>HTML · CSS · JavaScript</span>
+                  </div>
+                </div>
+
+                <div class="resume-section-block">
+                  <h4>Certifications</h4>
+                  <div class="resume-item">
+                    <strong>Azure Devops</strong>
+                    <span>Infosys</span>
+                  </div>
+                  <div class="resume-item">
+                    <strong>Introduction to Artificial Intelligence(AI)</strong>
+                    <span>Coursera</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download Button -->
+        <a href="Resume_Ram AnujGupta.pdf" download class="btn btn-primary resume-download-btn">
+          <i class="ph ph-download-simple"></i>
+          Download Full Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info" data-aos="fade-right">
+          <p class="contact-intro">
+            I'm currently open to internship opportunities, freelance projects, or just a
+            friendly chat about tech. Drop me a message — I usually reply within 24 hours!
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:alex.morgan@email.com" class="contact-method">
+              <div class="contact-method__icon">
+                <i class="ph ph-envelope-simple"></i>
+              </div>
+              <div>
+                <span class="contact-method__label">Email me directly</span>
+                <span class="contact-method__value">ramanujgupta9616@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ram-anuj-gupta-5692b9257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" class="contact-method">
+              <div class="contact-method__icon">
+                <i class="ph ph-linkedin-logo"></i>
+              </div>
+              <div>
+                <span class="contact-method__label">Connect on LinkedIn</span>
+                <span class="contact-method__value">linkedin.com/in/ramanujgupta</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/Anujgupta04" target="_blank" rel="noopener" class="contact-method">
+              <div class="contact-method__icon">
+                <i class="ph ph-github-logo"></i>
+              </div>
+              <div>
+                <span class="contact-method__label">See my work on GitHub</span>
+                <span class="contact-method__value">github.com/ramanujgupta</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm" novalidate>
+
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                placeholder="Your Name"
+                required
+                autocomplete="name"
+              />
+              <span class="form-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Your Email</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                placeholder="Your mail"
+                required
+                autocomplete="email"
+              />
+              <span class="form-error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="5"
+                placeholder="Hi Ram"
+                required
+              ></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit-btn">
+              <i class="ph ph-paper-plane-tilt"></i>
+              Send Message
+            </button>
+
+            <div class="form-success" id="formSuccess">
+              <i class="ph ph-check-circle"></i>
+              Message sent! I'll get back to you soon.
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>Anuj<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-copy">
+        Designed & built with ❤️ by <strong>Ram Anuj Gupta</strong> · © 2025
+      </p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/ram-anuj-gupta-5692b9257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://github.com/Anujgupta04" target="_blank" rel="noopener" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        <a href="ramanujgupta9616@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
